@@ -1,0 +1,61 @@
+#.gitignore for Java projects (using eclipse)
+
+# Linux
+# backup files
+*~
+
+# Windows
+# thumbnails
+Thumbs.db
+
+# Mac OS X
+# metadata
+.DS_Store
+# thumbnails
+._*
+
+# GIT
+.git/
+
+# Java
+*.class
+# packages 
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.settings/
+.buildpath
+.classpath
+.project
+.metadata
+.recommenders
+readme.txt
+/target/
+
+
+# Logging
+*.log
+
+# jME (binaries)
+*.so
+
+# Folder
+/bin/
+/out/
+/Servers/
+/RemoteSystemsTempFiles/
+
+
+# intellij platform
+.DS_Store
+.idea
+
+# CMake
+cmake-build-*/
+
+# File-based project format
+*.iws
+
+
